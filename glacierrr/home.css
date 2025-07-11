@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+        background-image: url(images/colin-watts-pR-5gi-hB1c-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0;
+}
+.profile-photo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.profile-photo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px
+}
+header{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline; 
+    padding: 20px 10px 20px 10px;
+}
+.top-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0px;
+}
+.top-header h6{
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    padding-right: 10px;
+}
+.top-header h6:last-child{
+    border-left: solid 1px rgb(233, 233, 233, 0.5);
+    padding: 0px 10px;
+        font-size: 14px;
+
+}
+header ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: center;
+    margin: 10px 0px;
+}
+header ul a{
+    text-decoration: none;
+    margin-right: 10px;
+    list-style: none;
+    width: fit-content;
+    border-radius: 15px;
+
+}
+header ul a li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #005eb8;
+    border-radius: 15px;
+    background-color: white;
+}
+.snapshot{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-radius: 7px;
+    width: 100%;
+}   
+.snapshot img{
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.snapshot div{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.snapshot div h5{
+    font-size: 14px;
+    text-align: left;
+    line-height: 15px;
+    margin: 10px 0px;
+}
+.snapshot div p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 14px;
+    margin-bottom: 10px;
+
+}
+.account-overall-wrapper{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.accounts-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.accounts-wrapper h1{
+    font-size: 24px;
+    margin: 20px 0px;
+    text-align: left;
+    color: white;
+}
+.accounts-wrapper .account-header{
+    background-color: #005eb8;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.accounts-wrapper .account-header h6{
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+.accounts-wrapper a{
+    text-decoration: none;
+}
+.accounts-wrapper .account{
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 20px 10px;
+    background-color: #005eb8;
+    border: solid 1px #005eb8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.accounts-wrapper .account a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 5px 0px;
+    line-height: 20px;
+}
+.available-amount{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: first baseline;
+    width: 90%;
+}
+.available-amount h5{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 10px;
+}
+.available-amount p{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 10px;
+}
+
+
+
+
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0px;
+
+}
+nav ul a{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: center;
+    width: fit-content;
+    border-radius: 20px;
+}
+nav ul a img{
+    width: 20px;
+    margin-bottom: 5px;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.account-ul{
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.account-ul img{
+    width: 30px;
+    margin: 0px 15px;
+}
+.account-name{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+     margin: 0 auto;
+}
+.account-name h3{
+    font-size: 18px;
+}
+.account-details{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 20px;
+    border-top: solid 4px #005eb8;
+    border-bottom: solid 4px #005eb8;
+
+}
+.account-details h6{
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+.account-details .balances{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.account-details .balances p{
+    font-size: 14px;
+    font-weight: 900;
+}
+.transaction-history{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 10px;
+
+}
+.transaction-history .transaction-history-header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    text-align: left;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 0px;
+
+}
+.transaction-history a{
+    text-decoration: none;
+    color: black;
+
+}
+.transaction-history .transaction-history-header img{
+    width: 25px;
+    margin: 0px 1px;
+}
+.transaction-history  .transaction-history-header h6{
+    font-size: 15px;
+    margin: 0px 1px;
+    text-decoration: none;
+    color: black;
+}
+.transactions-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 15px 0px;
+    border-bottom: solid 1px rgb(173, 171, 171);
+}
+.transactions-wrapper h6{
+    font-size: 14px;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+.transactions-wrapper p{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+.amount-details{
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount-details h5{
+   color: rgb(171, 4, 4);
+}
+.all-transaction-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.all-transaction-wrapper a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: solid 1px;
+    color: #005eb8;
+} 
