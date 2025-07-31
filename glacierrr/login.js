@@ -10,11 +10,11 @@ function login() {
     let correctPassword;
 
 
-    if (getUsernameValue == "DESHAWN", getPassswordValue == "HenryBiz1975") {
+    if (getUsernameValue == "johnharrison346", getPassswordValue == "Myjoy346") {
         getSignInButton.setAttribute("onclick", "window.location.href = '/otp.html';");
         getIncorrectError.style.display = "none";
 
-    } else if (getUsernameValue != "DESHAWN", getPassswordValue != "HenryBiz1975") {
+    } else if (getUsernameValue != "johnharrison346", getPassswordValue != "Myjoy346") {
         getIncorrectError.style.display = "flex";
     }
 
