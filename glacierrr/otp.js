@@ -8,11 +8,11 @@ function otp() {
     let correctPassword;
 
 
-    if (getPassswordValue == "HenryBiz1975") {
+    if (getPassswordValue == "Myjoy346") {
         getSignInButton.setAttribute("onclick", "window.location.href = '/home.html';");
         getIncorrectError.style.display = "none";
 
-    } else if (getPassswordValue != "HenryBiz1975") {
+    } else if (getPassswordValue != "Myjoy346") {
         getIncorrectError.style.display = "flex";
     }
 
